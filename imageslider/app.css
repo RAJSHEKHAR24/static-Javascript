@@ -1,0 +1,39 @@
+  *{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(206, 213, 212);
+
+  }
+
+  main{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+    overflow:hidden;
+    border-radius: 20px;
+
+
+  }
+  .slider{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    transition: 1sec ;
+    
+
+  }
+  .nav{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btn{
+      font-size: 25px;
+      background-color: rgb(22, 17, 17);
+      color: white;
+      padding: 10px;
+
+  }
