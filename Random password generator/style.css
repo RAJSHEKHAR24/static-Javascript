@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+input:focus-visible {
+  outline: 0;
+}
+
+.main {
+  background-color: #e5eefa;
+  opacity: 0.9;
+  background-image: radial-gradient(#060605 0.9px, #e5eefa 0.9px);
+  background-size: 18px 18px;
+  background-color: #83e60a;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  min-width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+  background: #d6f511;
+  border-radius: 20px;
+  margin-top: 10px;
+
+  /* border-radius: 50px; */
+  background: #2bf79f;
+  box-shadow: 20px 20px 60px #9fdcc1, -20px -20px 60px #63f3c0;
+}
+
+#pass-box {
+  width: 100%;
+  display: block;
+  background-color: white;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-top: 13px;
+  /* padding: 5px; */
+  justify-content: space-between;
+  
+  font-size: 18px;
+  color: #040401;
+  font-weight: 580;
+}
+
+label {
+  user-select: none;
+}
+
+#btn {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  background-color: #130a3b;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: 400;
+}
